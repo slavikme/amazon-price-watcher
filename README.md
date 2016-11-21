@@ -13,6 +13,7 @@ Requirements
 * NodeJS and NPM (latest version)
 * You must have a Product Advertising API account. If you don't have, create one [here](https://affiliate-program.amazon.com/gp/flex/advertising/api/sign-in.html).
 * You must have AWS account security credentials, as described [here](https://affiliate-program.amazon.com/gp/advertising/api/detail/your-account.html) in the Security Credentials section.
+* An alphanumeric token that uniquely identifies you as an Associate. To obtain an Associate Tag, go to [Becoming an Associate](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingAssociate.html).
 
 Install
 -------
@@ -21,11 +22,11 @@ Install
 [default]
 aws_access_key_id = your_access_key
 aws_secret_access_key = your_secret_key
+associate_tag = your_associate_tag
 ```
-2. Install the required libraries from the root of the project.
+2. Install the required libraries, by running the following command from the root of the project:
 ```bash
-npm install amazon-product-api
-npm install node-ini
+npm install 
 ```
 
 Run
