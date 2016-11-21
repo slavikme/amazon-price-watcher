@@ -17,7 +17,7 @@ Requirements
 
 Install
 -------
-1. Create a credentials file at `~/.aws/credentials` on Mac/Linux or `C:\Users\USERNAME\.aws\credentials` on Windows, with the following content (using the AWS credentials, as described in the requirements above):
+1. Create a credentials file at the root of the project `./.aws/credentials` (using the AWS credentials, as described in the requirements above):
     
     ```ini
     [default]
