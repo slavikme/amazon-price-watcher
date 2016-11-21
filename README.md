@@ -18,21 +18,26 @@ Requirements
 Install
 -------
 1. Create a credentials file at `~/.aws/credentials` on Mac/Linux or `C:\Users\USERNAME\.aws\credentials` on Windows, with the following content (using the AWS credentials, as described in the requirements above):
-```ini
-[default]
-aws_access_key_id = your_access_key
-aws_secret_access_key = your_secret_key
-associate_tag = your_associate_tag
-```
+    
+    ```ini
+    [default]
+    aws_access_key_id = your_access_key
+    aws_secret_access_key = your_secret_key
+    associate_tag = your_associate_tag
+    ```
+    
 2. Install the required libraries, by running the following command from the root of the project:
-```bash
-npm install 
-```
+
+    ```bash
+    npm install 
+    ```
 
 Run
 ---
 1. From the root of the project run the command
-```bash
-node bin/www
-```
+
+    ```bash
+    node bin/www
+    ```
+    
 2. On your browser, navigate to http://127.0.0.1:3000
