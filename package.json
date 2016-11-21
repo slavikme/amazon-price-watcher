@@ -1,15 +1,22 @@
 {
   "name": "amazon-price-watcher",
+  "license": "MIT",
   "version": "1.0.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slavikme/amazon-price-watcher.git"
+  },
   "scripts": {
     "start": "node ./bin/www"
+  },
+  "devDependencies": {
+    "debug": "~2.2.0"
   },
   "dependencies": {
     "amazon-product-api": "^0.4.2",
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
     "express": "~4.14.0",
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
