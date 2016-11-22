@@ -1,7 +1,20 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  p= products
+    h1= title
+    p Welcome to #{title}
+    p
+        table(border=1)
+            tr
+                th ASIN
+                th Image
+                th Price
+                th Title
+            for product in products
+                tr
+                    td
+                        a(href=product.getLink())= product.getASIN()
+                    td &nbsp;
+                    td= product.getPriceFormatted()
+                    td= product.getTitle()
 
